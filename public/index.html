@@ -12,10 +12,22 @@
 
 <div class="topbar">
   <div class="brand">
-    <span class="brand-title">Resume Composer</span>
-    <span class="brand-sub">Draft. Polish. Print.</span>
+    <div class="logo-group">
+      <div class="logo-container">
+        <i data-lucide="file-text" class="icon-file"></i>
+        <div class="sparkle-badge">
+          <i data-lucide="sparkles" class="icon-sparkles"></i>
+        </div>
+      </div>
+      <span class="brand-title">Resume Composer</span>
+    </div>
+    <div class="brand-divider"></div>
+    <span class="brand-sub">AI-Powered Resume Builder</span>
   </div>
-  <button class="download-btn" id="downloadBtn" type="button">Download PDF</button>
+  <button class="download-btn" id="downloadBtn" type="button">
+    <i data-lucide="download" class="icon-download"></i>
+    <span>Download PDF</span>
+  </button>
 </div>
 
 <div class="layout">
@@ -29,6 +41,43 @@
   </div>
 </div>
 
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div class="logo-group">
+        <div class="logo-container logo-container-sm">
+          <i data-lucide="file-text" class="icon-file-sm"></i>
+          <div class="sparkle-badge sparkle-badge-sm">
+            <i data-lucide="sparkles" class="icon-sparkles-sm"></i>
+          </div>
+        </div>
+        <span class="brand-title brand-title-sm">Resume Composer</span>
+      </div>
+      <span class="footer-tagline">Draft. Polish. Print.</span>
+    </div>
+    
+    <div class="footer-links">
+      <a href="#" class="footer-link">
+        <i data-lucide="github" class="icon-github"></i>
+        <span>GitHub</span>
+      </a>
+      <span class="footer-separator">•</span>
+      <a href="#" class="footer-link">Privacy Policy</a>
+      <span class="footer-separator">•</span>
+      <a href="#" class="footer-link">Feedback</a>
+    </div>
+
+    <div class="footer-meta">
+      <span class="copyright">&copy; 2026 Resume Composer</span>
+      <span class="version">v1.1.0</span>
+    </div>
+  </div>
+</footer>
+
+<script src="https://unpkg.com/lucide@latest"></script>
+<script>
+  lucide.createIcons();
+</script>
 <script src="/app.js"></script>
 </body>
 </html>
